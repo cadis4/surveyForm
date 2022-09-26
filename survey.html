@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <h1 id="title">SURVEY FORM</h1>
+      <p id="description"> Complete this form if you want to give us a feedback! </p>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label" >Name: <input type="text" id="name" placeholder="Enter your name" required> </label>
+          <label id="email-label">Email: <input type="email" id="email" placeholder="Enter your email"  required> </label>
+          <label id="number-label"> Age: <input type="number" id="number" placeholder="Select yout age" min="16" max="65" required> </label>
+          </fieldset>
+          <fieldset>
+          <label> What do you think about our platform? 
+            <select name="select" id="dropdown">
+              <option value="1"> in love with it </option>
+              <option value="2"> it's fine </option>
+              <option value="3"> don't really like it </option></select></label>
+          </fieldset>
+          <fieldset>
+          How much time do you spend here by a normal day? 
+            <label> <input type="radio" name="hours" value="h1">  1h </label>
+            <label> <input type="radio" name="hours" value="h2"> 2-3h  </label>
+            <label> <input type="radio" name="hours" value="h3"> 3-5h </label>
+            <label> <input type="radio" name="hours" value="h4"> more </label>
+         </fieldset>
+         <fieldset>
+           How did you hear about us?
+           <label> <input type="checkbox" value="c1"> Ads </label>
+           <label> <input type="checkbox" value="c2"> Friends </label>
+           <label> <input type="checkbox" value="c3"> School </label>
+           <label> <input type="checkbox" value="c4"> Social media </label>
+           <label> <input type="checkbox" value="c5"> Another answer </label>
+           <label> <input type="checkbox" value="c6"> I can not remember </label>
+         </fieldset>
+         <fieldset>
+           If you have any thoughts for us...
+           <textarea name="textarea" rows="3" cols="30" placeholder="Write smth here :) "></textarea>
+         </fieldset>
+         <input type="submit" value="Submit" id="submit" >
+      </form>
+</body>
+</html>

@@ -1,0 +1,47 @@
+select, input, label, textarea{
+    display: block;
+  }
+  input[type=radio]{
+    display: unset;  
+  }
+  input[type=checkbox]{
+    display: unset;  
+  }
+  
+  #title{
+    background-color: pink;
+    margin: 1 auto;
+    font-family: fantasy;
+    text-align: center;
+    
+  }
+  #description{
+    font-family: fantasy;
+    text-align: center;
+  }
+  #survey-form{
+  
+  }
+  #name-label{
+     width: 50%;
+     font-style: italic; 
+  }
+  #email-label{
+     width: 50%;
+     font-style: italic; 
+  }
+  #number-label{
+    width: 50%;
+    font-style: italic; 
+  }
+  #select{
+    width: 50%;
+    font-style: italic; 
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
